@@ -144,9 +144,9 @@ func setDefaultHermesValues(h *Hermes) error {
 		Theme:         new(Default),
 		TextDirection: defaultTextDirection,
 		Product: Product{
-			Name:        "Hermes",
-			Copyright:   "Copyright © 2020 Hermes. All rights reserved.",
-			TroubleText: "If you’re having trouble with the button '{ACTION}', copy and paste the URL below into your web browser.",
+			Name:        "",
+			Copyright:   "",
+			TroubleText: "",
 		},
 	}
 	// Merge the given hermes engine configuration with default one
